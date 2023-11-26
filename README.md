@@ -28,11 +28,12 @@ title: Panel Detector Plugin hierarchy
 classDiagram
     SupportShootingNode <-- SSPluginA : load as dll
     SupportShootingNode <-- SSPluginB : load as dll
-    SSPluginA <|-- DetectorBase : include
-    SSPluginB <|-- DetectorBase : include
-    SupportShootingNode <|-- DetectorBase : include
+    SSPluginA <|-- SupportShootingBase : include
+    SSPluginB <|-- SupportShootingBase : include
+    SupportShootingNode <|-- SupportShootingBase : include
     SupportShootingNode: params
     SupportShootingNode: image_callback(Image)
+    SupportShootingNode: point_callback(Detection2DArray)
     class SSPluginA{
         filter_kernel_param_a
         init(params)
