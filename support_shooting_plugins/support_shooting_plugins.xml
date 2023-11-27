@@ -1,0 +1,5 @@
+<library path="support_shooting_plugins">
+    <class type="support_shooting_plugins::Publish1stIndex" base_class_type="support_shooting_base::SupportShootingBase">
+        <description>publish image center example</description>
+    </class>
+</library>

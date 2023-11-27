@@ -1,7 +1,7 @@
 # SupportShooting
 Support shooting function node for CoRE-1 2024
 
-<img width="843" alt="support_shoothing_overview2" src="https://github.com/StrayedCats/SupportShooting/assets/67567093/81527337-2ca7-424f-814e-6260d5305815">
+<img width="843" alt="support_shooting_overview2" src="https://github.com/StrayedCats/SupportShooting/assets/67567093/81527337-2ca7-424f-814e-6260d5305815">
 
 ## Node Structure
 
@@ -23,7 +23,7 @@ Support shooting function node for CoRE-1 2024
 
 ```mermaid
 ---
-title: Panel Detector Plugin hierarchy
+title: SupportShooting Plugin hierarchy
 ---
 classDiagram
     SupportShootingNode <-- SSPluginA : load as dll

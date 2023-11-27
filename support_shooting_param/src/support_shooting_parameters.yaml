@@ -1,0 +1,6 @@
+support_shooting_parameters:
+  load_target_plugin:
+    type: string
+    description: "load target plugin"
+    default_value: "support_shooting_plugins::Publish1stIndex"
+
