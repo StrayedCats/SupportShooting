@@ -32,6 +32,7 @@ jobs:
           import-token: ${{ secrets.GITHUB_TOKEN }}
           package-name: |
             support_shooting_base
+            support_shooting_common
             support_shooting_node
             support_shooting_param
             support_shooting_plugins
