@@ -25,7 +25,7 @@ SupportShootingNode::SupportShootingNode(const rclcpp::NodeOptions & options)
   this->detection_sub_.subscribe(this, "detection", rmw_qos_profile_sensor_data);
   this->sync_.connectInput(this->image_sub_, this->detection_sub_);
 
-  this->pose_pub_ = this->create_publisher<geometry_msgs::msg::PointStamped>("pose", 1);
+  this->pose_pub_ = this->create_publisher<geometry_msgs::msg::PointStamped>("target", 1);
 
   using namespace std::placeholders;  // NOLINT
   this->sync_.registerCallback(
