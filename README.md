@@ -9,8 +9,9 @@ Support shooting function node for CoRE-1 2024
 
 | Topic Name | Type | Description |
 | --- | --- | --- |
-| positions | geometry_msgs/msg/Detection2DArray | Detected panel poses |
+| detection | vision_msgs::msg::Detection2DArray | Detected panel poses |
 | depth | sensor_msgs/msg/Image | Raw Depth from camera |
+| camera_info | sensor_msgs/msg/CameraInfo | Camera info for depth image |
 
 ### Topic (Publish)
 
@@ -31,6 +32,7 @@ classDiagram
     SSPluginA <|-- SupportShootingBase : include
     SSPluginB <|-- SupportShootingBase : include
     SupportShootingNode <|-- SupportShootingBase : include
+    SupportShootingNode <|-- SupportShootingCommon
     SupportShootingNode: params
     SupportShootingNode: image_callback(Image)
     SupportShootingNode: point_callback(Detection2DArray)
