@@ -3,7 +3,7 @@
 <package format="3">
   <name>support_shooting_plugins</name>
   <version>0.0.0</version>
-  <description>Panel detector plugins for CoRE-1</description>
+  <description>Support shooting plugins for CoRE-1</description>
   <maintainer email="ray255ar@gmail.com">Ar-Ray-code</maintainer>
   <license>Apache License 2.0</license>
 

@@ -3,7 +3,7 @@
 <package format="3">
   <name>support_shooting_base</name>
   <version>0.0.0</version>
-  <description>Panel detector plugin base</description>
+  <description>Support shooting plugin base</description>
   <maintainer email="ray255ar@gmail.com">Ar-Ray-code</maintainer>
   <license>Apache License 2.0</license>
 

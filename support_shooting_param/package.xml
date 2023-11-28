@@ -3,7 +3,7 @@
 <package format="3">
   <name>support_shooting_param</name>
   <version>0.0.0</version>
-  <description>Panel detector parameter package</description>
+  <description>Support shooting parameter package</description>
   <maintainer email="ray255ar@gmail.com">Ar-Ray-code</maintainer>
   <license>Apache-2.0</license>
 
